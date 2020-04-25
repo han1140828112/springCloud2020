@@ -1,7 +1,9 @@
 # springCloud2020
-#### 持续更新中
-#### Porject-Version:
 
+#### 持续更新中......
+
+
+#### Porject-Version:
 1. SpringBoot-Version: 2.2.2.RELEASE
 2. SpringCloud-Version: Hoxton.SR1
 3. SpringCloudAlibaba-Version: 2.1.0.RELEASE
