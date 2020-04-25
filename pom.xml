@@ -7,11 +7,14 @@
   <groupId>com.hzbs.springcloud</groupId>
   <artifactId>cloud2020</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>springCloud2020</name>
+
+
   <modules>
     <module>cloud-provider-payment</module>
   </modules>
-  <packaging>pom</packaging>
-  <name>Maven</name>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
