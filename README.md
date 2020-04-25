@@ -20,7 +20,7 @@
 8. 持久层 mybatisPlus
 9. 接口测试 swagger2
 10. 项目管理 maven3.6
-11. DB mysql 8.0.12
+11. DB mysql 8
 12. 开发工具  IDEA 2020.3
 
 特别感谢：bilibili    尚硅谷2020最新版SpringCloud(H版&alibaba) 
