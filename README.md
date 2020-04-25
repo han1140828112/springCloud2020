@@ -4,7 +4,7 @@
 
 1. SpringBoot-Version: 2.2.2.RELEASE
 2. SpringCloud-Version: Hoxton.SR1
-3. SpringBootAlibaba-Version: 2.1.0.RELEASE
+3. SpringCloudAlibaba-Version: 2.1.0.RELEASE
 
 #### Technology Stack:
 
