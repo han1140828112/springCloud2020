@@ -10,7 +10,7 @@
 
 #### Technology Stack:
 
-1. 服务注册中心  SpringCloud alibaba->Nacos&Zookeeper
+1. 服务注册中心  Eureka&SpringCloud alibaba->Nacos&Zookeeper
 2. 服务调用 Ribbon&LoadBalancer&OpenFeign
 3. 服务降级 Hystrix&SpringCloudalibaba->sentienl
 4. 服务网关 Gateway
