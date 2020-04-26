@@ -7,12 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-provider-payment" />
+        <module name="cloud-api-framework" />
+        <module name="cloud-eureka-server" />
         <module name="cloud-consumer-order" />
+        <module name="cloud-provider-payment" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-api-framework" target="1.8" />
       <module name="cloud-consumer-order" target="1.8" />
+      <module name="cloud-eureka-server" target="1.8" />
       <module name="cloud-provider-payment" target="1.8" />
       <module name="springCloud2020" target="1.8" />
     </bytecodeTargetLevel>

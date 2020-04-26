@@ -7,3 +7,7 @@
 #### cloud-provider-order 消费者订单模块
 1. port=17300
 2. test http://localhost/swagger-ui.html
+
+#### cloud-eureka-server eureka注册中心服务端
+1. port=18000
+2. test http://localhost:18000/eureka/

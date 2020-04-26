@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.generator.config.converts.MySqlTypeConvert;
 import com.baomidou.mybatisplus.generator.config.po.TableInfo;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.google.common.collect.Lists;
-import com.hzbs.payment.commons.AutoGeneratorEx;
+import com.hzbs.framework.commons.AutoGeneratorEx;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -28,7 +28,7 @@ public class GenerateCodeTests {
     private final static String LOGIC_DELETE_FIELD_NAME = "ddd_is_delete";
 
     @Test
-//    @Ignore
+    @Ignore
     public void generateSingleCode() {
         AutoGenerator mpg = new AutoGenerator();
 

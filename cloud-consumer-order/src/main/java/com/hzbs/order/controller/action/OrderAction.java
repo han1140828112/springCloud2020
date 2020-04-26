@@ -1,7 +1,7 @@
 package com.hzbs.order.controller.action;
 
-import com.hzbs.order.commons.BaseAppController;
-import com.hzbs.order.commons.BaseResultResponse;
+import com.hzbs.framework.commons.BaseAppController;
+import com.hzbs.framework.commons.BaseResultResponse;
 import com.hzbs.order.entity.PaymentDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

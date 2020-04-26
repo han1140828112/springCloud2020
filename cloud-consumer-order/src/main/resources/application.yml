@@ -10,6 +10,16 @@ spring:
     username: root
     password: wang
 
+
+eureka:
+  client:
+
+    register-with-eureka: true  # 默认注册到Eureka
+    fetch-registry: true #单点Eureka无所谓  但是集群必须设置为true 这样Ribbon才能负载均衡
+    service-url:
+      defaultZone: http://localhost:18000/eureka/
+
+
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
   #实体扫描，多个package用逗号或者分号隔离

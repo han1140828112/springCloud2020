@@ -1,8 +1,8 @@
 package com.hzbs.payment.controller.action;
 
 
-import com.hzbs.payment.commons.BaseAppController;
-import com.hzbs.payment.commons.BaseResultResponse;
+import com.hzbs.framework.commons.BaseAppController;
+import com.hzbs.framework.commons.BaseResultResponse;
 import com.hzbs.payment.entity.Payment;
 import com.hzbs.payment.service.PaymentService;
 import io.swagger.annotations.Api;
@@ -10,8 +10,6 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import org.springframework.stereotype.Controller;
 
 /**
  * <p>

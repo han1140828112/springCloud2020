@@ -1,0 +1,14 @@
+server:
+  port: 18000
+spring:
+  application:
+    name: cloud-eureka-server
+eureka:
+  instance:
+    hostname: localhost
+    ip-address: 127.0.0.1
+  client:
+    register-with-eureka: false #单机版不向自己注册
+    fetch-registry: false  #自己就是服务端，不需要去检索服务
+    serviceUrl:
+      defaultZone: http://${eureka.instance.ip-address}:${server.port}/eureka/
