@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-api-framework/cloud-api-framework.iml" filepath="$PROJECT_DIR$/cloud-api-framework/cloud-api-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-consumer-order/cloud-consumer-order.iml" filepath="$PROJECT_DIR$/cloud-consumer-order/cloud-consumer-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" filepath="$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server2/cloud-eureka-server2.iml" filepath="$PROJECT_DIR$/cloud-eureka-server2/cloud-eureka-server2.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment/cloud-provider-payment.iml" filepath="$PROJECT_DIR$/cloud-provider-payment/cloud-provider-payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment2/cloud-provider-payment2.iml" filepath="$PROJECT_DIR$/cloud-provider-payment2/cloud-provider-payment2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud2020.iml" filepath="$PROJECT_DIR$/.idea/springCloud2020.iml" />
     </modules>
   </component>

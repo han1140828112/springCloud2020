@@ -1,8 +1,8 @@
 server:
-  port: 17300
+  port: 17201
 spring:
   application:
-    name: cloud-provider-order
+    name: cloud-provider-payment
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource  #当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver
@@ -13,7 +13,6 @@ spring:
 
 eureka:
   client:
-
     register-with-eureka: true  # 默认注册到Eureka
     fetch-registry: true #单点Eureka无所谓  但是集群必须设置为true 这样Ribbon才能负载均衡
     service-url:

@@ -1,14 +1,14 @@
 server:
-  port: 18000
+  port: 18001
 spring:
   application:
-    name: cloud-eureka-server
+    name: cloud-eureka-server2
 eureka:
   instance:
-    hostname: eurekaserver1
+    hostname: eurekaserver2
     ip-address: 127.0.0.1
   client:
     register-with-eureka: false #单机版不向自己注册
     fetch-registry: false  #自己就是服务端，不需要去检索服务
     serviceUrl:
-      defaultZone: http://${eureka.instance.ip-address}:18001/eureka/
+      defaultZone: http://${eureka.instance.ip-address}:18000/eureka/

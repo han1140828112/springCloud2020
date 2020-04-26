@@ -16,7 +16,7 @@ eureka:
     register-with-eureka: true  # 默认注册到Eureka
     fetch-registry: true #单点Eureka无所谓  但是集群必须设置为true 这样Ribbon才能负载均衡
     service-url:
-      defaultZone: http://localhost:18000/eureka/
+      defaultZone: http://localhost:18000/eureka/,http://localhost:18001/eureka/
 
 
 mybatis-plus:

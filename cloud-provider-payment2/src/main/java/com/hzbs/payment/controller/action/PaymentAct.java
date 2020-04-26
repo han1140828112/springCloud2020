@@ -29,8 +29,6 @@ public class PaymentAct extends BaseAppController {
 
     @Value("${server.port}")
     private String port;
-
-
     /**
      * <p>
      * 根据ID 查询订单
