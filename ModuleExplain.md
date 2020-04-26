@@ -10,4 +10,4 @@
 
 #### cloud-eureka-server eureka注册中心服务端
 1. port=18000
-2. test http://localhost:18000/eureka/
+2. test http://localhost:18000
